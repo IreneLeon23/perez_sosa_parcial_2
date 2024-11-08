@@ -32,6 +32,15 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.image.featured img {
+    width: 100%; /* Ocupa el ancho completo de su contenedor */
+    max-width: 600px; /* Limita el ancho máximo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    border-radius: 8px; /* Añade bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra */
+}
 
 ol, ul {
 	list-style: none;
